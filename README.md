@@ -1,17 +1,3 @@
-# Workspace
+# Gsheets Lib
 
-## Setup
-
-* https://codelabs.developers.google.com/codelabs/clasp/#0
-	* Install Nodejs
-	* `npm i @google/clasp -g `
-	* `clasp login`
-	* Get `scriptId` from AppsScript Project: File -> Project Properties
-	* `clasp clone <scriptId>`
-	
-	
-## Usage
-
-* Enable Apps Script API: https://script.google.com/home/usersettings
-* `clasp status`
-* `clasp push`
+This project contains libraries and helpers to support small, collaborative data munging, cleanup and analysis projects on Google Sheets. It's meant to be used in tandem with [this template](https://github.com/kaiwren/gsheets-template).
